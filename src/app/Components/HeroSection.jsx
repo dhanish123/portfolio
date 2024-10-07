@@ -111,7 +111,7 @@ const HeroSection = () => {
           <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
             {/* Main Image */}
             <Image
-              src="/Images/hero-image.png"
+              src="/Images/Hero-image.png"
               alt="hero image"
               className="absolute inset-0 w-full h-full object-cover"
               width={300}
