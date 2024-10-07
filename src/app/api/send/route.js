@@ -30,7 +30,7 @@ import { NextResponse } from "next/server";
 import { Resend } from 'resend';
 
 // Initialize Resend instance with API key from environment variable
-const resend = new Resend(re_123456789);
+const resend = new Resend("re_fuQ7vcxm_BALsLGZexbS1Y1ffhjKYWV3F");
 const fromEmail = "dhanishmohammed814@gmail.com";
 
 export async function POST(req) {
