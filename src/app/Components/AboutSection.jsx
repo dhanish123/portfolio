@@ -226,7 +226,7 @@ const AboutSection = () => {
             ensuring high-quality code. I have a strong foundation in
             JavaScript, HTML, CSS, and have extensive experience with modern
             libraries like React.js, Redux, and Next.js. */}
-            I'm a Front End Developer specializing in building visually stunning
+            I&apos;m a Front End Developer specializing in building visually stunning
             and intuitive websites with React and other modern
             technologies. Experienced in using GA4 to track user behavior and
             enhance user privacy.
