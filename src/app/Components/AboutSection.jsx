@@ -11,6 +11,12 @@ import {
   FaCalendarAlt,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import Reactjs from "../../../public/images/react.svg";
+import Git from "../../../public/images/git.svg";
+import GA4 from "../../../public/images/GA4.png";
+import Html from "../../../public/images/html.svg";
+
+
 
 const TAB_DATA = [
   {
@@ -20,28 +26,28 @@ const TAB_DATA = [
       <Marquee direction="right">
         <div className="inline-block  animate-marquee">
           <Image
-            src="/images/react.svg"
+            src={Reactjs}
             alt="React"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/images/git.svg"
+            src={Git}
             alt="Github"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/images/GA4.png"
+            src={GA4}
             alt="Google Analytics 4"
             width={180}
             height={180}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/images/html.svg"
+            src={Html}
             alt="HTML"
             width={80}
             height={80}
