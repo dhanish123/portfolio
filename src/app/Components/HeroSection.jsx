@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Hero from "../../../public/images/hero-image.png";
+
 
 const HeroSection = () => {
   return (
@@ -111,7 +113,7 @@ const HeroSection = () => {
           <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
             {/* Main Image */}
             <Image
-              src="/images/Hero-image.png"
+              src={Hero}
               alt="hero image"
               className="absolute inset-0 w-full h-full object-cover"
               width={300}
