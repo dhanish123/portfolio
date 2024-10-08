@@ -55,6 +55,15 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
+        <Link href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/">
+            <Image
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+              width={34}
+              height={34}
+              className="lg:w-full lg:h-full"
+            />
+          </Link>
           <Link href="https://github.com/dhanish123">
             {/* <Image src={GithubIcon} alt="Github Icon" width={34} height={34} /> */}
             <Image
@@ -65,7 +74,7 @@ const EmailSection = () => {
               className="lg:w-full lg:h-full"
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/">
+          {/* <Link href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/">
             <Image
               src={LinkedinIcon}
               alt="Linkedin Icon"
@@ -73,7 +82,7 @@ const EmailSection = () => {
               height={34}
               className="lg:w-full lg:h-full"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div>
