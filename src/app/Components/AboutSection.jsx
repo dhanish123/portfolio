@@ -20,56 +20,56 @@ const TAB_DATA = [
       <Marquee direction="right">
         <div className="inline-block  animate-marquee">
           <Image
-            src="/Images/react.svg"
+            src="/images/react.svg"
             alt="React"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/git.svg"
+            src="/images/git.svg"
             alt="Github"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/GA4.png"
+            src="/images/GA4.png"
             alt="Google Analytics 4"
             width={180}
             height={180}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/html.svg"
+            src="/images/html.svg"
             alt="HTML"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/sass.png"
+            src="/images/sass.png"
             alt="SCSS"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/css.svg"
+            src="/images/css.svg"
             alt="CSS"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/js.png"
+            src="/images/js.png"
             alt="JavaScript"
             width={100}
             height={100}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/bootstrap.svg"
+            src="/images/bootstrap.svg"
             alt="Bootstrap"
             width={80}
             height={80}
@@ -77,21 +77,21 @@ const TAB_DATA = [
           />
 
           <Image
-            src="/Images/vitejs.svg"
+            src="/images/vitejs.svg"
             alt="vitejs"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/materialui.svg"
+            src="/images/materialui.svg"
             alt="materialui"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src="/Images/tailwind.svg"
+            src="/images/tailwind.svg"
             alt="Tailwind CSS"
             width={80}
             height={80}
@@ -99,7 +99,7 @@ const TAB_DATA = [
           />
 
           <Image
-            src="/Images/next.png"
+            src="/images/next.png"
             alt="Next.js"
             width={80}
             height={80}
@@ -211,7 +211,7 @@ const AboutSection = () => {
     <section id="about" className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/Images/about-image.png"
+          src="/images/about-image.png"
           alt="About Me"
           width={500}
           height={500}
