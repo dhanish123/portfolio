@@ -3,8 +3,6 @@ import React, { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 import Marquee from "react-fast-marquee";
-import Reactjs from "../../../public/react.svg";
-
 import {
   FaRegUser,
   FaPhoneAlt,
@@ -22,7 +20,7 @@ const TAB_DATA = [
       <Marquee direction="right">
         <div className="inline-block  animate-marquee">
           <Image
-            src={Reactjs}
+            src="/images/react.svg"
             alt="React"
             width={80}
             height={80}
