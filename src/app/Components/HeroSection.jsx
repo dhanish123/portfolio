@@ -3,8 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Hero from "../../../public/images/hero-image.png";
-
 
 const HeroSection = () => {
   return (
@@ -72,7 +70,7 @@ const HeroSection = () => {
   transition={{ duration: 0.5 }} className="col-span-4 place-self-center mt-4 lg:mt-0">
   <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]   relative">
     <Image
-      src="/images/hero-image.png"
+      src="/Images/hero-image.png"
       alt="hero image"
       className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
       // className="absolute inset-0 w-full h-full object-cover"
@@ -95,7 +93,7 @@ const HeroSection = () => {
   >
     <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
       <Image
-        src="/images/hero-image3.png"
+        src="/Images/hero-image3.png"
         alt="hero image"
         className="absolute inset-0 w-full h-full object-cover"
         width={300}
@@ -113,7 +111,7 @@ const HeroSection = () => {
           <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
             {/* Main Image */}
             <Image
-              src={Hero}
+              src="/Images/Hero-image.png"
               alt="hero image"
               className="absolute inset-0 w-full h-full object-cover"
               width={300}

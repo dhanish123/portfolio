@@ -3,6 +3,8 @@ import React, { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 import Marquee from "react-fast-marquee";
+import Reactjs from "../../../public/react.svg";
+
 import {
   FaRegUser,
   FaPhoneAlt,
@@ -11,12 +13,6 @@ import {
   FaCalendarAlt,
   FaMapMarkerAlt,
 } from "react-icons/fa";
-import Reactjs from "../../../public/images/react.svg";
-import Git from "../../../public/images/git.svg";
-import GA4 from "../../../public/images/GA4.png";
-import Html from "../../../public/images/html.svg";
-
-
 
 const TAB_DATA = [
   {
@@ -33,21 +29,21 @@ const TAB_DATA = [
             className="inline-block rounded mx-4"
           />
           <Image
-            src={Git}
+            src="/images/git.svg"
             alt="Github"
             width={80}
             height={80}
             className="inline-block rounded mx-4"
           />
           <Image
-            src={GA4}
+            src="/images/GA4.png"
             alt="Google Analytics 4"
             width={180}
             height={180}
             className="inline-block rounded mx-4"
           />
           <Image
-            src={Html}
+            src="/images/html.svg"
             alt="HTML"
             width={80}
             height={80}
