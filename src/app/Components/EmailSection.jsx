@@ -1,8 +1,11 @@
 "use client";
 import React, { useState } from "react";
 import emailjs, { init, send } from "emailjs-com"; // Import emailjs library
-import GithubIcon from "../../../public/github-icon.svg";
+// import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GithubIcon from "../../../public/images/git.svg";
+
+
 
 import Link from "next/link";
 import Image from "next/image";
