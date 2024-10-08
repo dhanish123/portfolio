@@ -53,7 +53,7 @@ const HeroSection = () => {
       </span>
     </button> */}
             <a
-              href="/DHANISH.pdf" // Path to the CV in the public folder
+              href="/Resume/DHANISH.pdf" // Path to the CV in the public folder
               download="Dhanish-Mohammed-CV.pdf" // Sets the downloaded file name
             >
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
@@ -70,7 +70,7 @@ const HeroSection = () => {
   transition={{ duration: 0.5 }} className="col-span-4 place-self-center mt-4 lg:mt-0">
   <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]   relative">
     <Image
-      src="/Images/hero-image.png"
+      src="/images/hero-image.png"
       alt="hero image"
       className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
       // className="absolute inset-0 w-full h-full object-cover"
@@ -93,7 +93,7 @@ const HeroSection = () => {
   >
     <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
       <Image
-        src="/Images/hero-image3.png"
+        src="/images/hero-image3.png"
         alt="hero image"
         className="absolute inset-0 w-full h-full object-cover"
         width={300}
@@ -111,7 +111,7 @@ const HeroSection = () => {
           <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
             {/* Main Image */}
             <Image
-              src="/Images/Hero-image.png"
+              src="/images/Hero-image.png"
               alt="hero image"
               className="absolute inset-0 w-full h-full object-cover"
               width={300}
