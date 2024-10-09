@@ -23,7 +23,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Dhanish Mohammed",
+                "Dhanish Mohammed C",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Front End Developer",
                 1000,
@@ -43,8 +43,8 @@ const HeroSection = () => {
           <div>
           <a href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/" target="_blank" rel="noopener noreferrer">
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
-              {/* Hire Me */}
-              Connect Me
+              Hire Me
+              {/* Connect Me */}
             </button>
             </a>
             {/* <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white  mt-3">
