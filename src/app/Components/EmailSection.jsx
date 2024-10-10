@@ -10,7 +10,9 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
-
+  console.log(GithubIcon);
+  console.log(LinkedinIcon);
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
 
