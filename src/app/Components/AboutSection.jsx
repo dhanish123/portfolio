@@ -288,7 +288,7 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("certification")}
               active={tab === "certification"}
             >
-              Certification
+              Certifications
             </TabButton>
           </div>
           <div className="mt-8">
