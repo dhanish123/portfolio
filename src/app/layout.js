@@ -38,8 +38,8 @@ export default function RootLayout({ children }) {
 
         {/* <!-- Google Tag Manager --> */}
 
-        {/* Google Tag Manager */}
-        <Script id="gtm-head" strategy="afterInteractive">
+       {/* Google Tag Manager */}
+       <Script id="gtm-script" strategy="afterInteractive">
           {`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -53,14 +53,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google Tag Manager (noscript) */}
+                {/* Google Tag Manager (noscript) */}
         <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-M4J7SQ27"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
+          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4J7SQ27"
+            height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
         </noscript>
 
         {children}
