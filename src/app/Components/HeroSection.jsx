@@ -24,13 +24,13 @@ const HeroSection = () => {
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "Dhanish Mohammed C",
-                // 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                // "Front End Developer",
-                // 1000,
-                // "React Js Developer",
-                // 1000,
-                // "UI Developer",
-                // 1000,
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Front End Developer",
+                1000,
+                "React Js Developer",
+                1000,
+                "UI Developer",
+                1000,
               ]}
               wrapper="span"
               speed={50}
