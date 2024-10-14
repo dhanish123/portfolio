@@ -66,6 +66,9 @@ module.exports = {
           '100%': { transform: 'translateX(-100%)' },
         },
       },
+      borderRadius: {
+        'custom-md': '1.375rem', // Custom border-radius
+      },
       // Add smooth scrolling behavior here
       scrollBehavior: ['smooth'], 
     },

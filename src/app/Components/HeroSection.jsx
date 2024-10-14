@@ -17,20 +17,21 @@ const HeroSection = () => {
           <h1 className="text-white mb-4 text-4xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               {" "}
-              Hello, I&apos;m {""}
+              {/* Hello, I&apos;m {""} */}
+              Hi, I&apos;m {""}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "Dhanish Mohammed C",
+                "Dhanish Mohammed",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Front End Developer",
-                1000,
-                "React Js Developer",
-                1000,
-                "UI Developer",
-                1000,
+                // "Front End Developer",
+                // 1000,
+                // "React Js Developer",
+                // 1000,
+                // "UI Developer",
+                // 1000,
               ]}
               wrapper="span"
               speed={50}
@@ -41,13 +42,17 @@ const HeroSection = () => {
           I’m a  skilled and passionate Front End Developer with experience in creating visually appealing and user-friendly websites      
           </p> */}
           <div>
-          <a href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/" target="_blank" rel="noopener noreferrer">
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
-              Hire Me
-              {/* Connect Me */}
-            </button>
+            <a
+              href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
+                {/* Hire Me */}
+                Connect Me
+              </button>
             </a>
-           
+
             <a
               href="/Resume/DHANISH.pdf" // Path to the CV in the public folder
               download="Dhanish-Mohammed-CV.pdf" // Sets the downloaded file name
@@ -60,7 +65,25 @@ const HeroSection = () => {
             </a>
           </div>
         </motion.div>
-    
+
+        {/* Image without the Rotating Dashed Border */}
+        {/* <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-4 place-self-center mt-4 mb-4 lg:mt-0"
+        >
+          <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
+            <Image
+              src="/heroImage.png"
+              alt="hero image"
+              className="absolute inset-0 w-full h-full object-cover"
+              width={300}
+              height={300}
+            />
+          </div>
+        </motion.div> */}
+
         {/* Image with Rotating Dashed Border */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
