@@ -14,256 +14,232 @@ import {
 import SkillSection from './SkillSection ';
 
 const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <Marquee direction="right">
-        <div className="inline-block  animate-marquee">
-          <Image
-            src="/images/react.svg"
-            alt="React"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/git.svg"
-            alt="Github"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/GA4.png"
-            alt="Google Analytics 4"
-            width={180}
-            height={180}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/html.svg"
-            alt="HTML"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/sass.png"
-            alt="SCSS"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/css.svg"
-            alt="CSS"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/js.png"
-            alt="JavaScript"
-            width={100}
-            height={100}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/bootstrap.svg"
-            alt="Bootstrap"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-
-          <Image
-            src="/images/vitejs.svg"
-            alt="vitejs"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/materialui.svg"
-            alt="materialui"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-          <Image
-            src="/images/tailwind.svg"
-            alt="Tailwind CSS"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-
-          <Image
-            src="/images/next.png"
-            alt="Next.js"
-            width={80}
-            height={80}
-            className="inline-block rounded mx-4"
-          />
-        </div>
-      </Marquee>
-    ),
-  },
-
-
-  // list the skilss
   // {
   //   title: "Skills",
   //   id: "skills",
   //   content: (
-  //     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-  //       {/* Skill 1 */}
-  //       <div className="flex flex-col items-center">
+  //     <Marquee direction="right">
+  //       <div className="inline-block  animate-marquee">
   //         <Image
   //           src="/images/react.svg"
   //           alt="React"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">React</p>
-  //       </div>
-
-  //       {/* Skill 2 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/git.svg"
   //           alt="Github"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">Git</p>
-  //       </div>
-
-  //       {/* Skill 3 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/GA4.png"
   //           alt="Google Analytics 4"
-  //           width={80}
-  //           height={80}
-  //           className="rounded mx-4"
+  //           width={180}
+  //           height={180}
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">Google Analytics 4</p>
-  //       </div>
-
-  //       {/* Skill 4 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/html.svg"
   //           alt="HTML"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">HTML</p>
-  //       </div>
-
-  //       {/* Skill 5 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/sass.png"
   //           alt="SCSS"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">SCSS</p>
-  //       </div>
-
-  //       {/* Skill 6 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/css.svg"
   //           alt="CSS"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">CSS</p>
-  //       </div>
-
-  //       {/* Skill 7 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/js.png"
   //           alt="JavaScript"
-  //           width={80}
-  //           height={80}
-  //           className="rounded mx-4"
+  //           width={100}
+  //           height={100}
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">JavaScript</p>
-  //       </div>
-
-  //       {/* Skill 8 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/bootstrap.svg"
   //           alt="Bootstrap"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">Bootstrap</p>
-  //       </div>
 
-  //       {/* Skill 9 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/vitejs.svg"
-  //           alt="ViteJS"
+  //           alt="vitejs"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">ViteJS</p>
-  //       </div>
-
-  //       {/* Skill 10 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/materialui.svg"
-  //           alt="Material UI"
+  //           alt="materialui"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">Material UI</p>
-  //       </div>
-
-  //       {/* Skill 11 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/tailwind.svg"
   //           alt="Tailwind CSS"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">Tailwind CSS</p>
-  //       </div>
 
-  //       {/* Skill 12 */}
-  //       <div className="flex flex-col items-center">
   //         <Image
   //           src="/images/next.png"
   //           alt="Next.js"
   //           width={80}
   //           height={80}
-  //           className="rounded mx-4"
+  //           className="inline-block rounded mx-4"
   //         />
-  //         <p className="mt-2 text-center">Next.js</p>
   //       </div>
-  //     </div>
+  //     </Marquee>
   //   ),
   // },
+ {
+    title: "Skills",
+    id: "skills",
+    content: (
+      <Marquee direction="right" speed={180}>
+        <div className="flex flex-row   animate-marquee">
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/react.svg"
+              alt="React"
+              width={80}
+              height={80}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-4 items-center">React</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/git.svg"
+              alt="Github"
+              width={80}
+              height={80}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-2 items-center">Github</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/GA4.png"
+              alt="Google Analytics 4"
+              width={160}
+              height={160}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-1 items-center">GA4</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/html.svg"
+              alt="HTML"
+              width={65}
+              height={65}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-3 items-center">Html</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/sass.png"
+              alt="SCSS"
+              width={80}
+              height={80}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-2 items-center">Scss</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/css.svg"
+              alt="CSS"
+              width={70}
+              height={70}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-2 items-center">Css</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/js.png"
+              alt="JavaScript"
+              width={85}
+              height={85}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-0 items-center">Javascript</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/bootstrap.svg"
+              alt="Bootstrap"
+              width={70}
+              height={70}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-4 items-center">Bootstrap</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/vitejs.svg"
+              alt="vitejs"
+              width={70}
+              height={70}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-4 items-center">Vite.js</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/materialui.svg"
+              alt="materialui"
+              width={80}
+              height={80}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-6 items-center">Material Ui</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/tailwind.svg"
+              alt="Tailwind CSS"
+              width={80}
+              height={80}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-10 items-center">Tailwind Css</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image
+              src="/Images/next.png"
+              alt="Next.js"
+              width={80}
+              height={80}
+              className="inline-block rounded mx-4"
+            />
+            <p className="mt-2 items-center">Next.js</p>
+          </div>
+        </div>
+      </Marquee>
+    ),
+  },
   {
     title: "Education",
     id: "education",
