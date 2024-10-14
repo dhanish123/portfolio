@@ -18,7 +18,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <Marquee direction="right" speed={180}>
+      <Marquee direction="right" speed={160}>
         <div className="flex flex-row   animate-marquee">
           <div className="flex flex-col items-center">
             <Image
