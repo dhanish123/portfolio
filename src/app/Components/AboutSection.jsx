@@ -22,7 +22,7 @@ const TAB_DATA = [
         <div className="flex flex-row   animate-marquee">
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/react.svg"
+              src="/images/react.svg"
               alt="React"
               width={80}
               height={80}
@@ -32,7 +32,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/git.svg"
+              src="/images/git.svg"
               alt="Github"
               width={80}
               height={80}
@@ -42,7 +42,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/GA4.png"
+              src="/images/GA4.png"
               alt="Google Analytics 4"
               width={160}
               height={160}
@@ -52,7 +52,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/html.svg"
+              src="/images/html.svg"
               alt="HTML"
               width={65}
               height={65}
@@ -62,7 +62,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/sass.png"
+              src="/images/sass.png"
               alt="SCSS"
               width={80}
               height={80}
@@ -72,7 +72,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/css.svg"
+              src="/images/css.svg"
               alt="CSS"
               width={70}
               height={70}
@@ -82,7 +82,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/js.png"
+              src="/images/js.png"
               alt="JavaScript"
               width={85}
               height={85}
@@ -92,7 +92,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/bootstrap.svg"
+              src="/images/bootstrap.svg"
               alt="Bootstrap"
               width={70}
               height={70}
@@ -102,7 +102,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/vitejs.svg"
+              src="/images/vitejs.svg"
               alt="vitejs"
               width={70}
               height={70}
@@ -112,7 +112,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/materialui.svg"
+              src="/images/materialui.svg"
               alt="materialui"
               width={80}
               height={80}
@@ -122,7 +122,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/tailwind.svg"
+              src="/images/tailwind.svg"
               alt="Tailwind CSS"
               width={80}
               height={80}
@@ -132,7 +132,7 @@ const TAB_DATA = [
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="/Images/next.png"
+              src="/images/next.png"
               alt="Next.js"
               width={80}
               height={80}
