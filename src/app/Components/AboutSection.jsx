@@ -134,8 +134,8 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Certification",
-    id: "certification",
+    title: "Certifications",
+    id: "certifications",
     content: (
       <ul className="list-disc pl-5">
         <li>GA4 Certification</li>
@@ -250,7 +250,7 @@ const AboutSection = () => {
           </div>
 
           <div className="flex flex-row justify-start mt-8">
-            {["Skills", "Experience", "Certification"].map((tabName) => (
+            {["Skills", "Experience", "Certifications"].map((tabName) => (
               <TabButton
                 key={tabName}
                 selectTab={() => handleTabChange(tabName.toLowerCase())}
