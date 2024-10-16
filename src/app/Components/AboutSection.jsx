@@ -98,6 +98,13 @@ const TAB_DATA = [
               width: "w-[55%]",
               fontSize: "text-[16px]",
             },
+            {
+              src: "/images/excel.png",
+              alt: "Excel",
+              name: "Excel",
+              width: "w-[55%]",
+              fontSize: "text-[16px]",
+            },
           ].map((skill, index) => (
             <div key={index} className="flex items-center space-x-4">
               <Image
@@ -123,16 +130,16 @@ const TAB_DATA = [
       </div>
     ),
   },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-5">
-        <li>BTech in Computer Science</li>
-        <li>Higher Secondary School</li>
-      </ul>
-    ),
-  },
+  // {
+  //   title: "Education",
+  //   id: "education",
+  //   content: (
+  //     <ul className="list-disc pl-5">
+  //       <li>BTech in Computer Science</li>
+  //       <li>Higher Secondary School</li>
+  //     </ul>
+  //   ),
+  // },
   {
     title: "Certifications",
     id: "certifications",
@@ -144,31 +151,36 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Experience",
-    id: "experience",
+    title: "Experience & Education",
+    id: "experience & education",
     content: (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Experience Card */}
         {[
           {
-            year: "2023 - present",
+            year: "2024 - present",
             role: "Frontend Developer",
-            company: "StratAgile Private Limited",
+            company: "StratAgile Private Limited, Kochi",
           },
           {
-            year: "2022 - 2023",
+            year: "2023 - 2024",
             role: "Frontend Developer",
-            company: "Standard Chartered Bank via StratAgile Private Limited",
+            company: "Standard Chartered Bank via StratAgile Private Limited, Kochi",
           },
           {
-            year: "2022 - 2023",
+            year: "2023 - 2024",
             role: "Google Analytics 4",
-            company: "StratAgile Private Limited",
+            company: "StratAgile Private Limited, Kochi",
           },
           {
-            year: "2022",
+            year: "2022 - 2023",
             role: "MEA(R)N Stack Web Development",
             company: "Luminar Technolab, Kochi",
+          },
+          {
+            year: "2018 - 2022",
+            role: "BTECH COMPUTER SCIENCE",
+            company: "MEA Engineering College , Perinthalmanna , Malappuram",
           },
         ].map((exp, index) => (
           <div key={index} className="bg-gray-800 p-4 rounded-lg text-white">
@@ -250,7 +262,7 @@ const AboutSection = () => {
           </div>
 
           <div className="flex flex-row justify-start mt-8">
-            {["Skills", "Experience", "Certifications"].map((tabName) => (
+            {["Skills", "Experience & Education"].map((tabName) => (
               <TabButton
                 key={tabName}
                 selectTab={() => handleTabChange(tabName.toLowerCase())}

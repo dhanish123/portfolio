@@ -14,33 +14,37 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl lg:text-7xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              {" "}
-              {/* Hello, I&apos;m {""} */}
-              Hi, I&apos;m {""}
-            </span>
-            <br></br>
+        <h1 className="text-white mb-4 text-4xl lg:text-7xl lg:leading-normal font-extrabold">
+  <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+    Hi, I&apos;m
+  </span>
+  <br />
+  <span className=" italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+    Dhanish Mohammed
+  </span>
+</h1>
+          <p className="text-white mb-4 text-2xl lg:text-4xl lg:leading-normal italic text-[23px]">
+            I&apos;m a {" "}
+            <span className="text-yellow-500">
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Dhanish Mohammed",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                // "Front End Developer",
-                // 1000,
-                // "React Js Developer",
-                // 1000,
-                // "UI Developer",
-                // 1000,
+                "Front End Developer",
+                1000, 
+                "React Js Developer",
+                1000,
+                "Google Data Analyst",
+                1000,
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
-          </h1>
-          {/* <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I’m a  skilled and passionate Front End Developer with experience in creating visually appealing and user-friendly websites      
-          </p> */}
+            </span>
+          </p>
+
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          I am a Front End Developer motivated by a passion for creating websites that emphasize visual design and user interaction.
+          </p>
           <div>
             <a
               href="https://www.linkedin.com/in/dhanish-mohammed-15165222a/"
