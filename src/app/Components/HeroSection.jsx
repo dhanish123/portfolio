@@ -44,7 +44,7 @@ const HeroSection = () => {
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             {/* I am a Front End Developer motivated by a passion for creating websites that emphasize visual design and user interaction. */}
-            I'm a Front End Developer passionate about interactive, visually
+            I&apos;m a Front End Developer passionate about interactive, visually
             engaging websites, with GA4 proficiency for tracking and privacy.{" "}
           </p>
           <div>
