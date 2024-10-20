@@ -1,3 +1,5 @@
+"use client"
+import { useState , useEffect } from "react";
 import HeroSection from "./Components/HeroSection";
 import Navbar  from "./Components/Navbar";
 import AboutSection from "./Components/AboutSection";
@@ -7,8 +9,24 @@ import Footer from "./Components/Footer";
 import AchievementsSection from "./Components/AchievementsSection";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+  useEffect(()=>{
+    const timer   = setTimeout(()=>{
+      setLoading(false);  // Hide loading after 2 seconds
+    },2000)
+    return() =>clearTimeout(timer);
+
+  },[]);
+
+
   return (
     <main className="flex min-h-screen flex-col bg-[#121212] ">
+      {loading ? (
+        <div className="flex items-center justify-center h-screen">
+          <img src="/images/loading.gif" alt="Loading..." />
+        </div>
+      ) : (
+        <>
       <Navbar/>
       <div className="container mt-24 mx-auto px-12 py-4">
       <HeroSection />
@@ -18,6 +36,8 @@ export default function Home() {
       <EmailSection />
       </div>
       <Footer />
+      </>
+           )}
     </main>
   );
 }

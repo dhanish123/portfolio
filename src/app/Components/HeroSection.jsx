@@ -14,36 +14,38 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-        <h1 className="text-white mb-4 text-4xl lg:text-7xl lg:leading-normal font-extrabold">
-  <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-    Hi, I&apos;m
-  </span>
-  <br />
-  <span className=" italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-    Dhanish Mohammed
-  </span>
-</h1>
+          <h1 className="text-white mb-4 text-4xl lg:text-7xl lg:leading-normal font-extrabold">
+            <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              Hi, I&apos;m
+            </span>
+            <br />
+            <span className=" italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              Dhanish Mohammed
+            </span>
+          </h1>
           <p className="text-white mb-4 text-2xl lg:text-4xl lg:leading-normal italic text-[23px]">
             I&apos;m a {" "}
             <span className="text-yellow-500">
-            <TypeAnimation
-              sequence={[
-                "Front End Developer",
-                1000, 
-                "React Js Developer",
-                1000,
-                "Google Data Analyst",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+              <TypeAnimation
+                sequence={[
+                  "Front End Developer",
+                  1000,
+                  "React Js Developer",
+                  1000,
+                  "Google Data Analyst",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
             </span>
           </p>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I am a Front End Developer motivated by a passion for creating websites that emphasize visual design and user interaction.
+            {/* I am a Front End Developer motivated by a passion for creating websites that emphasize visual design and user interaction. */}
+            I'm a Front End Developer passionate about interactive, visually
+            engaging websites, with GA4 proficiency for tracking and privacy.{" "}
           </p>
           <div>
             <a
