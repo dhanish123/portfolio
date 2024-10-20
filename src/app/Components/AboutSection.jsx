@@ -28,6 +28,7 @@ const TAB_DATA = [
               width: "w-[90%]",
               fontSize: "text-[16px]",
             },
+            
             {
               src: "/images/css.svg",
               alt: "CSS3",
