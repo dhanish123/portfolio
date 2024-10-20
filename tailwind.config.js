@@ -57,6 +57,13 @@ module.exports = {
         primary: colors.green,
         secondary: colors.yellow,
       },
+      letterSpacing: {
+        custom: '2px',
+      },
+      fontStyle: {
+        oblique: 'oblique',
+      },
+
       animation: {
         "loop-scroll": 'loop-scroll 10s linear infinite', // Add your marquee animation here
       },

@@ -21,13 +21,49 @@ const TAB_DATA = [
         <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
           {/* Skills Progress Bars */}
           {[
-            {
-              src: "/images/html.svg",
-              alt: "HTML5",
-              name: "HTML5",
-              width: "w-[90%]",
-              fontSize: "text-[16px]",
-            },
+              {
+                src: "/images/react.svg",
+                alt: "React JS",
+                name: "React JS",
+                width: "w-[80%]",
+                fontSize: "text-[16px]",
+              },
+              {
+                src: "/images/next.png",
+                alt: "Next js",
+                name: "Next js",
+                width: "w-[70%]",
+                fontSize: "text-[16px]",
+              },
+              {
+                src: "/images/js.png",
+                alt: "JavaScript",
+                name: "JavaScript",
+                width: "w-[65%]",
+                fontSize: "text-[16px]",
+              },
+              {
+                src: "/images/git.svg",
+                alt: "Git",
+                name: "Git",
+                width: "w-[70%]",
+                fontSize: "text-[16px]",
+              },
+              {
+                src: "/images/html.svg",
+                alt: "HTML5",
+                name: "HTML5",
+                width: "w-[90%]",
+                fontSize: "text-[16px]",
+              },
+              {
+                src: "/images/sass.png",
+                alt: "Sass",
+                name: "Sass",
+                width: "w-[85%]",
+                fontSize: "text-[16px]",
+              },
+         
             {
               src: "/images/css.svg",
               alt: "CSS3",
@@ -35,6 +71,7 @@ const TAB_DATA = [
               width: "w-[85%]",
               fontSize: "text-[16px]",
             },
+         
             {
               src: "/images/tailwind.svg",
               alt: "Tailwind CSS",
@@ -42,20 +79,8 @@ const TAB_DATA = [
               width: "w-[80%]",
               fontSize: "text-[16px]",
             },
-            {
-              src: "/images/js.png",
-              alt: "JavaScript",
-              name: "JavaScript",
-              width: "w-[75%]",
-              fontSize: "text-[16px]",
-            },
-            {
-              src: "/images/react.svg",
-              alt: "React JS",
-              name: "React JS",
-              width: "w-[80%]",
-              fontSize: "text-[16px]",
-            },
+        
+          
             {
               src: "/images/bootstrap.svg",
               alt: "Bootstrap",
@@ -70,38 +95,18 @@ const TAB_DATA = [
               width: "w-[60%]",
               fontSize: "text-[16px]",
             },
+          
             {
-              src: "/images/git.svg",
-              alt: "Git",
-              name: "Git",
-              width: "w-[60%]",
+              src: "/images/excel.png",
+              alt: "Excel",
+              name: "Excel",
+              width: "w-[55%]",
               fontSize: "text-[16px]",
             },
             {
               src: "/images/materialui.svg",
               alt: "MaterialUI",
               name: "MaterialUI",
-              width: "w-[55%]",
-              fontSize: "text-[16px]",
-            },
-            {
-              src: "/images/next.png",
-              alt: "Next js",
-              name: "Next js",
-              width: "w-[70%]",
-              fontSize: "text-[16px]",
-            },
-            {
-              src: "/images/sass.png",
-              alt: "Sass",
-              name: "Sass",
-              width: "w-[55%]",
-              fontSize: "text-[16px]",
-            },
-            {
-              src: "/images/excel.png",
-              alt: "Excel",
-              name: "Excel",
               width: "w-[55%]",
               fontSize: "text-[16px]",
             },
@@ -220,7 +225,7 @@ const AboutSection = () => {
           className="rounded-[28px]"
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className=" italic text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg mb-4">
             I&apos;m a Front End Developer specializing in building visually
             stunning and intuitive websites with React and other modern

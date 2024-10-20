@@ -94,7 +94,7 @@ const ProjectSection = () => {
 
   return (
     <section id="services">
-      <h2 className="text-center text-4xl font-bold mt-4">My Services</h2>
+      <h2 className="text-center text-4xl font-bold mt-4 tracking-custom" style={{ fontStyle: 'oblique' }}>My Services</h2>
       <div className="flex flex-row justify-center items-center gap-2 text-white  py-6">
         <ProjectTag
           onClick={handleTagChange}
