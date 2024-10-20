@@ -25,7 +25,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#121212] ">
       {loading ? (
         <div className="flex items-center justify-center h-screen">
-          <Image src="/images/loading.gif" alt="Loading..." />
+          <Image src="/images/loading.gif" alt="Loading..."   width={300}
+              height={300} />
         </div>
       ) : (
         <>
