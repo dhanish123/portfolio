@@ -241,7 +241,7 @@ const AboutSection = () => {
               </div>
               <div className="flex items-center space-x-2 mb-4">
                 <FaGraduationCap className="text-red-500" />
-                <p>BTech Computer Science</p>
+                <p>BTECH COMPUTER SCIENCE</p>
               </div>
             </div>
 
