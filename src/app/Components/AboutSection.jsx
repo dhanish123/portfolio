@@ -22,7 +22,7 @@ const TAB_DATA = [
           {/* Skills Progress Bars */}
           {[
             {
-              src: "/images/css.svg",
+              src: "/images/html.svg",
               alt: "HTML5",
               name: "HTML5",
               width: "w-[90%]",
