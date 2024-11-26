@@ -65,6 +65,15 @@ const projectsData = [
   },
   {
     id: 7,
+    title: "Google Tag Manager",
+    description: "Set up tags, triggers, and integrated GA4 through Google Tag Manager to track interactions and improve analytics insights",
+    image: "/images/projects/gtm.png",
+    tag: ["All", "GA4"],
+    gitUrl: "/",
+    // previewUrl: "/",
+  },
+  {
+    id: 8,
     title: "Looker Studio",
     description: "Using Looker Studio to build interactive dashboards and visualizations, turning complex data into actionable insights",
     image: "/images/projects/l.png",
