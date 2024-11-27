@@ -12,7 +12,7 @@ const projectsData = [
     description: "Langages : Next js, Tailwind Css, Javascript",
     image: "/images/projects/pf.webp",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/dhanish123/portfolio",
     // previewUrl: "/",
   },
   {
@@ -60,7 +60,7 @@ const projectsData = [
     description: "Using GA4 to track user behavior, analyze data, and create reports that help businesses improve user experiences while respecting privacy.",
     image: "/images/projects/ga.png",
     tag: ["All", "GA4"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/dhanish123/portfolio/blob/main/src/app/layout.js",
     // previewUrl: "/",
   },
   {
@@ -69,7 +69,7 @@ const projectsData = [
     description: "Set up tags, triggers, and integrated GA4 through Google Tag Manager to track interactions and improve analytics insights",
     image: "/images/projects/gtm.png",
     tag: ["All", "GA4"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/dhanish123/portfolio/blob/main/src/app/layout.js",
     // previewUrl: "/",
   },
   {
@@ -78,7 +78,7 @@ const projectsData = [
     description: "Using Looker Studio to build interactive dashboards and visualizations, turning complex data into actionable insights",
     image: "/images/projects/l.png",
     tag: ["All", "GA4"],
-    gitUrl: "/",
+    gitUrl: null,
     // previewUrl: "/",
   },
 
@@ -139,6 +139,7 @@ const ProjectSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
+              // gitUrl={project.tag.includes("GA4") ? null : project.gitUrl}
               previewUrl={project.previewUrl}
             />
           </motion.li>

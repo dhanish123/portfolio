@@ -100,16 +100,23 @@ const TAB_DATA = [
               src: "/images/excel.png",
               alt: "Excel",
               name: "Excel",
-              width: "w-[55%]",
+              width: "w-[60%]",
               fontSize: "text-[16px]",
             },
             {
-              src: "/images/materialui.svg",
-              alt: "MaterialUI",
-              name: "MaterialUI",
-              width: "w-[55%]",
+              src: "/images/gtm.svg",
+              alt: "GTM",
+              name: "GTM",
+              width: "w-[60%]",
               fontSize: "text-[16px]",
             },
+            // {
+            //   src: "/images/materialui.svg",
+            //   alt: "MaterialUI",
+            //   name: "MaterialUI",
+            //   width: "w-[55%]",
+            //   fontSize: "text-[16px]",
+            // },
           ].map((skill, index) => (
             <div key={index} className="flex items-center space-x-4">
               <Image
