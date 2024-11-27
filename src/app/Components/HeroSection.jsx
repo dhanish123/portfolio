@@ -19,9 +19,10 @@ const HeroSection = () => {
               Hi, I&apos;m
             </span>
             <br />
-            <span className=" italic text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Dhanish Mohammed
-            </span>
+         <span class="italic tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+  Dhanish Mohammed
+</span>
+
           </h1>
           <p className="text-white mb-4 text-2xl lg:text-4xl lg:leading-normal italic text-[23px]">
             I&apos;m a {" "}
