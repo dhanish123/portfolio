@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
@@ -26,6 +26,23 @@ const navLinks = [
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+
+  useEffect(() => {
+    handleResize(); // Check initial screen size
+    window.addEventListener("resize", handleResize);
+
+    // Reset navbar state on viewport change to desktop
+    if (!isMobile) setNavbarOpen(false);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [isMobile]);
 
   const handleLinkClick = () => {
     setNavbarOpen(false); // Close the navbar when a link is clicked
