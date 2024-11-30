@@ -223,7 +223,7 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="xl:grid xl:grid-cols-2 gap-8 items-center py-8 md:px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/about-image.png"
           alt="About Me"
@@ -231,7 +231,7 @@ const AboutSection = () => {
           height={500}
           className="rounded-[28px]"
         />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <div className="mt-4 xl:mt-0 text-left flex flex-col h-full">
           <h2 className=" italic text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg mb-4">
             I&apos;m a Front End Developer specializing in building visually

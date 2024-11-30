@@ -61,7 +61,7 @@ const HeroSection = () => {
             </a>
 
             <a
-              href="/resume/DhanishMohammed.pdf" // Path to the CV in the public folder
+              href="/resume/DhanishMohammed16.pdf" // Path to the CV in the public folder
               download="Dhanish-Mohammed-CV.pdf" // Sets the downloaded file name
             >
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
@@ -101,7 +101,9 @@ const HeroSection = () => {
           <div className="relative rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden">
             {/* Main Image */}
             <Image
+              // src="/fd.jpg"
               src="/heroImage.png"
+
               alt="hero image"
               className="absolute inset-0 w-full h-full object-cover"
               width={300}
