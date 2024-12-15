@@ -158,6 +158,8 @@ const Login = ({ onLoginSuccess }) => {
         country: selectedCountry
       });
 
+      console.log("Data Layer:", window.dataLayer); // Debugging
+
       onLoginSuccess(); // Navigate to the main content
     } else {
       alert("Please select a country before proceeding.");
@@ -171,21 +173,17 @@ const Login = ({ onLoginSuccess }) => {
           Select Your Country
         </h2>
 
-        {/* Form to Select Country */}
+        {/* Country Selection Form */}
         <form onSubmit={handleSubmit} className="space-y-6" id="form1">
-          {/* Country Dropdown */}
           <div>
-            <label
-              htmlFor="country"
-              className="block text-sm font-medium text-gray-700"
-            >
+            <label htmlFor="country" className="block text-sm font-medium text-gray-700">
               Country
             </label>
             <select
               id="country"
               value={selectedCountry}
               onChange={(e) => setSelectedCountry(e.target.value)}
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg bg-gray-50 text-gray-800 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="mt-1 block w-full p-2 border rounded-lg bg-gray-50"
             >
               <option value="">Select Country</option>
               <option value="USA">United States</option>
@@ -197,14 +195,12 @@ const Login = ({ onLoginSuccess }) => {
           </div>
 
           {/* Submit Button */}
-          <div>
-            <button
-              type="submit"
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:outline-none transition duration-300"
-            >
-              GO
-            </button>
-          </div>
+          <button
+            type="submit"
+            className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg"
+          >
+            GO
+          </button>
         </form>
       </div>
     </div>
@@ -212,4 +208,3 @@ const Login = ({ onLoginSuccess }) => {
 };
 
 export default Login;
-
