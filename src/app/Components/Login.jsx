@@ -94,7 +94,7 @@ const Login = ({ onLoginSuccess }) => {
           Select Your Country
         </h2>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6" id="form1">
           {/* Country Dropdown */}
           <div>
             <label
