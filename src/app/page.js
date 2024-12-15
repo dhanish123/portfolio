@@ -31,7 +31,6 @@ export default function Home() {
         </div>
       ) : (
         <>
-        <Login />
       <Navbar/>
       <div className="container mt-16 mx-auto px-12 py-4">
       <HeroSection />
