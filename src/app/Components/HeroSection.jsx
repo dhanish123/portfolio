@@ -102,10 +102,14 @@ const HeroSection = () => {
             {/* Main Image */}
             <Image
               // src="/fd.jpg"
-              src="/heroImage.png"
+              // src="/heroImage.png"
+              src="/m.png"
+
 
               alt="hero image"
-              className="absolute inset-0 w-full h-full object-cover"
+              // className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full object-cover"
+
               width={300}
               height={300}
             />
