@@ -35,15 +35,15 @@ const projectsData = [
   },
 
 
-  {
-    id: 4,
-    title: "GitHub Dashboard In React",
-    description: "Langages : React , HTML, CSS, Javascript",
-    image: "/images/projects/gi.jpeg",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/dhanish123/React-Github-Dashboard",
-    // previewUrl: "/",
-  },
+  // {
+  //   id: 4,
+  //   title: "GitHub Dashboard In React",
+  //   description: "Langages : React , HTML, CSS, Javascript",
+  //   image: "/images/projects/gi.jpeg",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/dhanish123/React-Github-Dashboard",
+  //   // previewUrl: "/",
+  // },
 
   {
     id: 5,
