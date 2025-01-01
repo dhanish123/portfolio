@@ -29,10 +29,24 @@ const TAB_DATA = [
                 fontSize: "text-[16px]",
               },
               {
+                src: "/images/GA4.png",
+                alt: "GA4",
+                name: "GA4",
+                width: "w-[60%]",
+                fontSize: "text-[16px]",
+              },
+              {
                 src: "/images/next.png",
                 alt: "Next js",
                 name: "Next js",
                 width: "w-[70%]",
+                fontSize: "text-[16px]",
+              },
+              {
+                src: "/images/gtm.svg",
+                alt: "GTM",
+                name: "GTM",
+                width: "w-[60%]",
                 fontSize: "text-[16px]",
               },
               {
@@ -43,10 +57,10 @@ const TAB_DATA = [
                 fontSize: "text-[16px]",
               },
               {
-                src: "/images/git.svg",
-                alt: "Git",
-                name: "Git",
-                width: "w-[70%]",
+                src: "/images/excel.png",
+                alt: "Excel",
+                name: "Excel",
+                width: "w-[60%]",
                 fontSize: "text-[16px]",
               },
               {
@@ -57,13 +71,19 @@ const TAB_DATA = [
                 fontSize: "text-[16px]",
               },
               {
+                src: "/images/git.svg",
+                alt: "Git",
+                name: "Git",
+                width: "w-[70%]",
+                fontSize: "text-[16px]",
+              },
+              {
                 src: "/images/sass.png",
                 alt: "Sass",
                 name: "Sass",
                 width: "w-[85%]",
                 fontSize: "text-[16px]",
               },
-         
             {
               src: "/images/css.svg",
               alt: "CSS3",
@@ -71,7 +91,6 @@ const TAB_DATA = [
               width: "w-[85%]",
               fontSize: "text-[16px]",
             },
-         
             {
               src: "/images/tailwind.svg",
               alt: "Tailwind CSS",
@@ -79,35 +98,11 @@ const TAB_DATA = [
               width: "w-[80%]",
               fontSize: "text-[16px]",
             },
-        
-          
             {
               src: "/images/bootstrap.svg",
               alt: "Bootstrap",
               name: "Bootstrap",
               width: "w-[80%]",
-              fontSize: "text-[16px]",
-            },
-            {
-              src: "/images/GA4.png",
-              alt: "GA4",
-              name: "GA4",
-              width: "w-[60%]",
-              fontSize: "text-[16px]",
-            },
-          
-            {
-              src: "/images/excel.png",
-              alt: "Excel",
-              name: "Excel",
-              width: "w-[60%]",
-              fontSize: "text-[16px]",
-            },
-            {
-              src: "/images/gtm.svg",
-              alt: "GTM",
-              name: "GTM",
-              width: "w-[60%]",
               fontSize: "text-[16px]",
             },
             // {
@@ -171,19 +166,20 @@ const TAB_DATA = [
         {[
           {
             year: "2024 - present",
-            role: "Frontend Developer",
+            role: "Front End Developer",
+            company: "StratAgile Private Limited, Kochi",
+          },
+          {
+            year: "2024 - present",
+            role: "Google Data Analyst",
             company: "StratAgile Private Limited, Kochi",
           },
           {
             year: "2023 - 2024",
-            role: "Frontend Developer",
+            role: "Front End Developer",
             company: "Standard Chartered Bank via StratAgile Private Limited, Kochi",
           },
-          {
-            year: "2023 - 2024",
-            role: "Google Analytics 4",
-            company: "StratAgile Private Limited, Kochi",
-          },
+         
           {
             year: "2022 - 2023",
             role: "MEA(R)N Stack Web Development",
