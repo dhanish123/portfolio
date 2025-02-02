@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="f-SjbRL81VKehh0LAbG9aXMIF0vLYFUxKFSbw81O_I0" />
         
         {/* Google Analytics Script */}
-        <Script
+        {/* <Script
           src={`https://www.googletagmanager.com/gtag/js?id=G-WQ18ZQP85B`}
           strategy="afterInteractive"
         />
@@ -39,10 +39,10 @@ export default function RootLayout({ children }) {
             gtag('js', new Date());
             gtag('config', 'G-WQ18ZQP85B');
           `}
-        </Script>
+        </Script> */}
 
         {/* Google Tag Manager */}
-        <Script
+        {/* <Script
           id="google-tag-manager"
           strategy="afterInteractive"
         >
@@ -57,14 +57,44 @@ export default function RootLayout({ children }) {
               f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-M4J75QZ7');
           `}
-        </Script>
+        </Script> */}
         {/* End Google Tag Manager */}
+
+
+        {/* Google Analytics - Placing directly inside <head> */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-WQ18ZQP85B');
+            `,
+          }}
+        />
+
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){
+                w[l]=w[l]||[]; 
+                w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'}); 
+                var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''; 
+                j.async=true;
+                j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; 
+                f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-M4J75QZ7');
+            `,
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
+      {/* Google Tag Manager (noscript) */}
+      <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-M4J75QZ7"
             height="0"
@@ -72,6 +102,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+
 
         {children}
       </body>
