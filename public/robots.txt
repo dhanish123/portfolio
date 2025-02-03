@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://dhanish.vercel.app/
-
-# Sitemaps
-Sitemap: https://dhanish.vercel.app/sitemap.xml
